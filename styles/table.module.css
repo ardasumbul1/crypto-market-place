@@ -1,0 +1,11 @@
+.title{
+    @apply text-xl lg:text-4xl mb-[5px];
+}
+
+.price{
+    @apply text-sm lg:text-2xl font-semibold;
+}
+
+.landingImage {
+    @apply w-[75px] h-[75px] lg:w-[150px] lg:h-[150px] m-[1vh] lg:m-[3vh];
+}

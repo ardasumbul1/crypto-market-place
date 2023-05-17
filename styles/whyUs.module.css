@@ -1,0 +1,4 @@
+
+.myParagraph{
+    @apply m-[3vh] text-white rounded-xl p-[3vh] bg-[#576CBC];
+}
