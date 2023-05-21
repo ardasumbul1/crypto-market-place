@@ -7,8 +7,8 @@ export default function Landing(){
                 <h1>TRACK CRYPTO MARKET AND  DEVELOPMENTS IN BLOCKCHAIN</h1>
             </div>
             <div className="flex justify-center lg:text-xl lg:font-semibold ">
-                <button className="bg-[#FFFFFF] sm:h-[50px] lg:p-3 m-2 rounded p-[3px]" type="button"><Link href="#table">SEE THE MARKET</Link></button>
-                <button className="border-[1px] border-[#FFFFFF] sm:h-[50px] lg:p-3 m-2 rounded text-[#ffffff] p-[3px]" type="button">VISIT OUR BLOG</button>
+                <button className="bg-[#FFFFFF] sm:h-[50px] lg:p-3 m-2 rounded " type="button"><Link href="#table">SEE THE MARKET</Link></button>
+                <button className="border-[1px] border-[#FFFFFF] sm:h-[50px] lg:p-3 m-2 rounded text-[#ffffff]" type="button">VISIT OUR BLOG</button>
             </div>
         </div>
     )
