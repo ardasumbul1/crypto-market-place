@@ -14,7 +14,7 @@ export default function Table({ coins}) {
     setActiveTab(tabIndex);
   };
   return (
-    <div className="sm:bg-gradient-to-b from-black via-purple-400 to-[#515db7] ">
+    <div className="sm:bg-gradient-to-b from-black via-purple-400 to-[#4551a5] ">
     <Landing />
     <div className='flex justify-center text-center text-3xl font-bold text-white mb-[20vh]'>
       <div>

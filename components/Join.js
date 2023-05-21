@@ -3,7 +3,7 @@ import styles from "../styles/join.module.css"
 export default function Join(){
     return(
         <div >
-            <div id="join" className="text-center text-white sm:bg-gradient-to-b from-[#515db7] via-purple-500 to-[#ffffff]">
+            <div id="join" className="text-center text-white sm:bg-gradient-to-b from-[#4551a5] via-purple-500 to-[#ffffff]">
                 <div className="text-6xl font-bold mb-[10vh] pt-[20vh]">
                     <h1>JOIN OUR</h1> 
                     <h1>DISCORD AND BLOG</h1>

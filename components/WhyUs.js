@@ -4,7 +4,7 @@ import { } from '@fortawesome/free-solid-svg-icons';
 
 export default function WhyUs(){
     return(
-        <div className="sm:bg-[#515db7] ">
+        <div className="sm:bg-[#4551a5] ">
             <h1 className="pt-[30vh] text-6xl text-white font-bold text-center font-sans">WHY CHOOSE US ?</h1>
             <div className="lg:flex lg:justify center lg:p-[10vh]  pt-[10vh]">
                 <div className="lg:w-[30%]">

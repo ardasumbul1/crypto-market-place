@@ -15,11 +15,11 @@ export default function Navbar(){
                 <div className="w-[10%]">
                     <img className="w-[100px]" src="/crypto_logo.png" alt="" />
                 </div>
-                <div className="text-[#ffffff] w-[90%] lg:text-3xl text-center font-sans  font-semibold" >
-                    <Link className="m-[4vh]" href="/">Home</Link>
-                    <Link href="#table">Market</Link>
-                    <Link className="m-[4vh]" href="/blog">Blog</Link>
-                    <Link href="#join">Join</Link>
+                <div className="text-[#ffffff] w-[80%] lg:text-3xl text-center font-sans  font-semibold" >
+                    <Link className="m-[2vh]" href="/">Home</Link>
+                    <Link className="m-[2vh]" href="#table">Market</Link>
+                    <Link className="m-[2vh]" href="/blog">Blog</Link>
+                    <Link className="m-[2vh]" href="#join">Join</Link>
                 </div>
                 <div className="w-[10%] ">
                 <Link  href="#table"><FontAwesomeIcon  icon={faWallet} style={{color: "#ffffff"} }  size="2xl"/></Link>
