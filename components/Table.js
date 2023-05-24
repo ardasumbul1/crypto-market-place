@@ -40,7 +40,7 @@ export default function Table({ coins}) {
       
     </div>
         
-    <div id="table" className="flex justify-center text-[#ffffff]">
+    <div id="table" className="flex justify-center items-center text-[#ffffff]">
       <table className="w-[80%]">
         <thead className="mb-[20px] h-20 ">
           <tr className='lg:text-3xl text-left'>
@@ -55,9 +55,9 @@ export default function Table({ coins}) {
             <tr key={coin.id} className="border-t-2 text-xs lg:text-2xl lg:font-semibold">
               <td>
                 <div className="flex items-center lg:p-[1vh]">
-                  <img className=" w-[5vh] lg:w-[10vh]" src={coin.image} alt={coin.name} />
+                  <img className=" w-[4vh] lg:w-[10vh] " src={coin.image} alt={coin.name} />
                   <div>
-                    <span className=" ml-[1vh] lg:ml-[3vh]">{coin.name}</span>
+                    <span className=" ml-[1vh] text-xs lg:text-3xl lg:ml-[4vh] mr-[5vh] lg:mr-[1vh]">{coin.name}</span>
                   </div>
                 </div>
               </td>
